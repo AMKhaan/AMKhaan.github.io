@@ -11,9 +11,9 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen w-full">
       <Header />
-      <main>
+      <main className="w-full">
         <Hero />
         <About />
         <Skills />
